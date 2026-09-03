@@ -28,7 +28,7 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Miss PARI",
-  photo: "./img/img/IMG_20260903_113913.jpg",       // Place your photo in the img/ folder
+  photo: "./img/IMG_20260903_113913.jpg",       // Place your photo in the img/ folder
   music: "./music/HBD.mp3",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -71,7 +71,7 @@ const CONFIG = {
       type: "chatbox",
       message:
         "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
-      buttonText: "Send",
+      buttonText: "Wait",
     },
     {
       type: "ideas",
@@ -98,7 +98,7 @@ const CONFIG = {
       count: 25,
     },
     {
-      type: "profile",
+      type: "Profile",
       wishTitle: "Happy Birthday!",
       wishText: "May the js.prototypes always be with you! ;)",
     },
