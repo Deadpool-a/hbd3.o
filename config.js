@@ -98,7 +98,7 @@ const CONFIG = {
       count: 25,
     },
     {
-      type: "Profile",
+      type: "profile",
       wishTitle: "Happy Birthday!",
       wishText: "May the js.prototypes always be with you! ;)",
     },
