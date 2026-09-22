@@ -114,6 +114,7 @@ const CONFIG = {
       type: "closing",
       text: "Okay, Then GoodBye... Our Distence is Too Long & I Know We are not for each Other I'm Sorry but I will wait for you until the end of my life. BYee",
       replayText: "Or click, if you want to watch it again.",
+      byeGif: true,
     },
   ],
 };
