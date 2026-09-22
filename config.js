@@ -27,8 +27,8 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Miss PARI",
-  photo: "./img/IMG_20260903_113913.jpg",       // Place your photo in the img/ folder
+  name: "Miss BEAUTIFULL",
+  photo: "./img/Sobi.jpg",       // Place your photo in the img/ folder
   music: "./music/HBD.mp3",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
