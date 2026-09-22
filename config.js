@@ -55,8 +55,8 @@ const CONFIG = {
   sections: [
     {
       type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+      title: "Hey",
+      subtitle: "I really like your name btw! Sobiii",
     },
     {
       type: "countdown",
@@ -99,8 +99,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday! Sobi",
-      wishText: "May the happyness of my life always be with you! ;)",
+      wishTitle: "Happy Birthday!_CUTIE_",
+      wishText: "May the Happyness of my life always Be with you! Sobi ;)",
     },
     {
       type: "fireworks",
@@ -112,7 +112,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, Then GoodBye... Our Distence is Too Long & I Know We are not for each Other I'm Sorry but I will wait for you until the end of my life. .",
+      text: "Okay, Then GoodBye... Our Distence is Too Long & I Know We are not for each Other I'm Sorry but I will wait for you until the end of my life. BYee",
       replayText: "Or click, if you want to watch it again.",
     },
   ],
