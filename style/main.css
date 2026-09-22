@@ -224,7 +224,7 @@ body {
   opacity: 0;
 }
 
-/* ── Quote ──────────────────────────────────────────────────────── */
+/* ── Quote ────────────────────────────────────────────────��─────── */
 .quote-card {
   max-width: 520px;
   width: 88%;
@@ -380,6 +380,24 @@ body {
   padding: 0 1rem;
 }
 
+/* Keep the goodbye GIF small, centered, and below the closing text. */
+.section-closing .tenor-gif-embed {
+  width: min(220px, 55vw) !important;
+  max-width: 220px !important;
+  margin: 1rem auto 0;
+  flex: 0 0 auto;
+  align-self: center;
+  overflow: hidden;
+}
+
+.section-closing .tenor-gif-embed iframe,
+.section-closing .tenor-gif-embed img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
 .replay-btn {
   cursor: pointer;
   z-index: 3;
@@ -475,7 +493,7 @@ body {
   }
 }
 
-/* ── SweetAlert2 ───────────────────────────────────────────────── */
+/* ── SweetAlert2 ────────────────��──────────────────────────────── */
 .swal2-popup {
   border-radius: 16px !important;
 }
