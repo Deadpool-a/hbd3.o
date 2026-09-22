@@ -35,20 +35,35 @@
     },
 
     animate(tl, el) {
-      const ideaIn = { opacity: 0, y: -20, rotationX: 5, skewX: "15deg" };
+      const closingText = el.querySelector(".closing-text");
+      const replay = el.querySelector(".replay-btn");
+      const smile = el.querySelector(".last-smile");
       const gif = el.querySelector(".tenor-gif-embed");
+      const ideaIn = { opacity: 0, y: -20, rotationX: 5, skewX: "15deg" };
 
-      // Show the goodbye GIF only after the complete closing message.
-      tl.from(el.querySelectorAll(".closing-text, #replay, .last-smile"), {
+      // Animate the closing message as one element. Do not use a stagger here:
+      // staggering the closing elements can make the end of a long message look
+      // as if its final words are being typed separately.
+      tl.from(closingText, {
         duration: 1,
         ...ideaIn,
-        stagger: 1.2,
+        clearProps: "transform",
       })
-        .set(el.querySelector("#replay"), { pointerEvents: "auto" })
-        .to(el.querySelector(".last-smile"), {
+        .from(replay, {
+          duration: 0.7,
+          ...ideaIn,
+          onStart: () => {
+            replay.style.pointerEvents = "auto";
+          },
+        }, "+=0.4")
+        .from(smile, {
+          duration: 0.7,
+          ...ideaIn,
+        }, "+=0.2")
+        .to(smile, {
           duration: 0.5,
           rotation: 90,
-        }, "+=1");
+        }, "+=0.6");
 
       if (gif) {
         tl.from(gif, {
