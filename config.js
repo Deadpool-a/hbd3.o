@@ -70,7 +70,7 @@ const CONFIG = {
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
+        "Happy birthday to youu!!You deserve all the happiness in the world today and always. May your day be as incredible and magical as you are.",
       buttonText: "Wait",
     },
     {
@@ -99,8 +99,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Happy Birthday! Sobi",
+      wishText: "May the happyness of my life always be with you! ;)",
     },
     {
       type: "fireworks",
@@ -112,7 +112,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
+      text: "Okay, Then GoodBye... Our Distence is Too Long & I Know We are not for each Other I'm Sorry but I will wait for you until the end of my life. .",
       replayText: "Or click, if you want to watch it again.",
     },
   ],
